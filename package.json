@@ -67,6 +67,7 @@
         "serialize-javascript": "^1.3.0",
         "style-loader": "^0.13.1",
         "supervisor": "^0.12.0",
+        "tree": "^0.1.3",
         "webpack": "1",
         "webpack-del-plugin": "0.0.1",
         "webpack-dev-server": "^1.16.3",
