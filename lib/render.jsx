@@ -14,7 +14,7 @@ const temp = (content, initialState) => (
 <html>
 <head>
 <meta charset="utf-8">
-<title>墨迹天气</title>
+<title>服务端渲染页面</title>
 <meta content="yes" name="apple-touch-fullscreen">
 <meta name="format-detection" content="telephone=no">
 <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">

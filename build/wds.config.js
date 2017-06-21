@@ -14,7 +14,8 @@ module.exports = {
         chunkFilename: '[name]_[chunkhash:5].js'
     },
     devServer: {
-        historyApiFallback: true
+        historyApiFallback: true,
+        disableHostCheck: true
     },
     module: {
         loaders: [{

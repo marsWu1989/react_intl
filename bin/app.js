@@ -11,7 +11,7 @@ import render from './../lib/render';
 import hum from './../lib/hum';
 
 const app = new Koa();
-const port = 9527;
+const port = 9526;
 
 app.context.logger = logger;
 

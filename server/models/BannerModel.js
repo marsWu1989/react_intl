@@ -8,7 +8,7 @@ Banner.banner = async(ctx, next, opt) => {
     }
     try {
         const data = await new Promise((resolve) => {
-            fetch(`http://www.mojitest.com/gw/getSpecial?sign=mobile_${opt.name}`)
+            fetch(`http://tianqi.moji.com/gw/getSpecial?sign=mobile_${opt.name}`)
                 .then((response) => {
                     if (response.status >= 400) {
                         ctx.logger.error('net work fail');
